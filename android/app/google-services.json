@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1062100872258",
+    "project_id": "sahilmapsproject",
+    "storage_bucket": "sahilmapsproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062100872258:android:105b0ffc42f12ae32611db",
+        "android_client_info": {
+          "package_name": "com.example.mapbox_turn_by_turn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062100872258-mv7qlkpunn6gvjosv1khih7s4g673hvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQZ_Xk0u0XgMODh70vdCYCZYjjJVvNHRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062100872258-mv7qlkpunn6gvjosv1khih7s4g673hvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/mapbox_turn_by_turn/BuildConfig.java
+ com.example.mapbox_turn_by_turn.BuildConfig

@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Learning Programming\\Flutter\\Flutter Busi\\project_1_maps\\project-maps\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-yo\\values-yo.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Sakib\\.gradle\\caches\\transforms-2\\files-2.1\\299b462f0595c8c2f3d1a2a41d7ec1ca\\jetified-base-1.2.0\\res\\values-yo\\values-yo.xml",
+                    "from": {
+                        "startLines": "2,5,6",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,155,201",
+                        "endLines": "4,5,6",
+                        "endColumns": "14,45,47",
+                        "endOffsets": "150,196,244"
+                    },
+                    "to": {
+                        "startLines": "2,13,17",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,609,807",
+                        "endLines": "4,13,17",
+                        "endColumns": "14,45,47",
+                        "endOffsets": "150,650,850"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Sakib\\.gradle\\caches\\transforms-2\\files-2.1\\2477948c5efb227920cae96e9d92bd20\\jetified-utils-1.2.0\\res\\values-yo\\values-yo.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,103,157,206",
+                        "endColumns": "47,53,48,48",
+                        "endOffsets": "98,152,201,250"
+                    },
+                    "to": {
+                        "startLines": "12,14,15,16",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "561,655,709,758",
+                        "endColumns": "47,53,48,48",
+                        "endOffsets": "604,704,753,802"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Sakib\\.gradle\\caches\\transforms-2\\files-2.1\\f044e7cebb50ee853e01db2ac40b2588\\jetified-notification-1.2.0\\res\\values-yo\\values-yo.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,119",
+                        "endColumns": "63,52",
+                        "endOffsets": "114,167"
+                    },
+                    "to": {
+                        "startLines": "5,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "155,219",
+                        "endColumns": "63,52",
+                        "endOffsets": "214,267"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Sakib\\.gradle\\caches\\transforms-2\\files-2.1\\4013c144648ce332b56a95dad0f35fe9\\jetified-ui-1.2.0\\res\\values-yo\\values-yo.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,121,168,225,286,344",
+                        "endColumns": "65,46,56,60,57,50",
+                        "endOffsets": "116,163,220,281,339,390"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,18",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "272,338,385,442,503,855",
+                        "endColumns": "65,46,56,60,57,50",
+                        "endOffsets": "333,380,437,498,556,901"
+                    }
+                }
+            ]
+        }
+    ]
+}

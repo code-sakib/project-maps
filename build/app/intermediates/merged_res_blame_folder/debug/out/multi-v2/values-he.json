@@ -1,0 +1,94 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Learning Programming\\Flutter\\Flutter Busi\\project_1_maps\\project-maps\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Sakib\\.gradle\\caches\\transforms-2\\files-2.1\\164e960190c96300a4a01bdc35e6d24d\\jetified-mapbox-android-sdk-9.6.2\\res\\values-he\\values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,177,331,407,480,553,638,725,841,944,1094,1208,1345",
+                        "endColumns": "121,153,75,72,72,84,86,115,102,149,113,136,68",
+                        "endOffsets": "172,326,402,475,548,633,720,836,939,1089,1203,1340,1409"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13,15,16,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,177,331,407,480,553,638,725,841,1070,1270,1384,1700",
+                        "endColumns": "121,153,75,72,72,84,86,115,102,149,113,136,68",
+                        "endOffsets": "172,326,402,475,548,633,720,836,939,1215,1379,1516,1764"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Sakib\\.gradle\\caches\\transforms-2\\files-2.1\\299b462f0595c8c2f3d1a2a41d7ec1ca\\jetified-base-1.2.0\\res\\values-he\\values-he.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,103",
+                        "endColumns": "47,47",
+                        "endOffsets": "98,146"
+                    },
+                    "to": {
+                        "startLines": "21,25",
+                        "startColumns": "4,4",
+                        "startOffsets": "1769,1973",
+                        "endColumns": "47,47",
+                        "endOffsets": "1812,2016"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Sakib\\.gradle\\caches\\transforms-2\\files-2.1\\2477948c5efb227920cae96e9d92bd20\\jetified-utils-1.2.0\\res\\values-he\\values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,110,160",
+                        "endColumns": "54,49,50",
+                        "endOffsets": "105,155,206"
+                    },
+                    "to": {
+                        "startLines": "22,23,24",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1817,1872,1922",
+                        "endColumns": "54,49,50",
+                        "endOffsets": "1867,1917,1968"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Sakib\\.gradle\\caches\\transforms-2\\files-2.1\\4013c144648ce332b56a95dad0f35fe9\\jetified-ui-1.2.0\\res\\values-he\\values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,120,170,221,285,349",
+                        "endColumns": "64,49,50,63,63,51",
+                        "endOffsets": "115,165,216,280,344,396"
+                    },
+                    "to": {
+                        "startLines": "12,14,17,18,19,26",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "1005,1220,1521,1572,1636,2021",
+                        "endColumns": "64,49,50,63,63,51",
+                        "endOffsets": "1065,1265,1567,1631,1695,2068"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Sakib\\.gradle\\caches\\transforms-2\\files-2.1\\f044e7cebb50ee853e01db2ac40b2588\\jetified-notification-1.2.0\\res\\values-he\\values-he.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "60",
+                        "endOffsets": "111"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "944",
+                        "endColumns": "60",
+                        "endOffsets": "1000"
+                    }
+                }
+            ]
+        }
+    ]
+}

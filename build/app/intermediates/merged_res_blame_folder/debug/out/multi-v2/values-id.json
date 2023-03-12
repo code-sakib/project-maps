@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Learning Programming\\Flutter\\Flutter Busi\\project_1_maps\\project-maps\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Sakib\\.gradle\\caches\\transforms-2\\files-2.1\\4013c144648ce332b56a95dad0f35fe9\\jetified-ui-1.2.0\\res\\values-id\\values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,112,171",
+                        "endColumns": "56,58,59",
+                        "endOffsets": "107,166,226"
+                    },
+                    "to": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "120,177,236",
+                        "endColumns": "56,58,59",
+                        "endOffsets": "172,231,291"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Sakib\\.gradle\\caches\\transforms-2\\files-2.1\\f044e7cebb50ee853e01db2ac40b2588\\jetified-notification-1.2.0\\res\\values-id\\values-id.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "64",
+                        "endOffsets": "115"
+                    }
+                }
+            ]
+        }
+    ]
+}

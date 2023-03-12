@@ -1,0 +1,383 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mapbox_turn_by_turn"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\android\app\src\main\AndroidManifest.xml:3:5-67
+14-->D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\android\app\src\main\AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\android\app\src\main\AndroidManifest.xml:4:5-81
+15-->D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\android\app\src\main\AndroidManifest.xml:4:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\android\app\src\main\AndroidManifest.xml:5:5-79
+16-->D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\android\app\src\main\AndroidManifest.xml:5:22-76
+17    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+17-->D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\android\app\src\main\AndroidManifest.xml:6:5-89
+17-->D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\android\app\src\main\AndroidManifest.xml:6:22-86
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+18-->D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\android\app\src\main\AndroidManifest.xml:7:5-76
+18-->D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\android\app\src\main\AndroidManifest.xml:7:22-74
+19    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+19-->D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\android\app\src\main\AndroidManifest.xml:8:5-84
+19-->D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\android\app\src\main\AndroidManifest.xml:8:22-82
+20
+21    <uses-feature android:name="android.hardware.location.gps" />
+21-->D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\android\app\src\main\AndroidManifest.xml:9:5-65
+21-->D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\android\app\src\main\AndroidManifest.xml:9:19-63
+22    <uses-feature
+22-->D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\android\app\src\main\AndroidManifest.xml:10:5-78
+23        android:glEsVersion="0x00030001"
+23-->D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\android\app\src\main\AndroidManifest.xml:10:19-51
+24        android:required="true" />
+24-->D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\android\app\src\main\AndroidManifest.xml:10:52-75
+25
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->[:flutter_mapbox_navigation] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\flutter_mapbox_navigation\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-79
+26-->[:flutter_mapbox_navigation] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\flutter_mapbox_navigation\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-76
+27
+28    <uses-feature
+28-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\164e960190c96300a4a01bdc35e6d24d\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:12:5-14:36
+29        android:name="android.hardware.wifi"
+29-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\164e960190c96300a4a01bdc35e6d24d\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:13:9-45
+30        android:required="false" />
+30-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\164e960190c96300a4a01bdc35e6d24d\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:14:9-33
+31
+32    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required for CrashReporterJobIntentService on API levels below 25 -->
+32-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\164e960190c96300a4a01bdc35e6d24d\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:18:5-76
+32-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.2] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\164e960190c96300a4a01bdc35e6d24d\jetified-mapbox-android-sdk-9.6.2\AndroidManifest.xml:18:22-73
+33    <uses-permission android:name="android.permission.WAKE_LOCK" />
+33-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\a5a2226ed1f79ab169f4c85384b3e188\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:12:5-68
+33-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\a5a2226ed1f79ab169f4c85384b3e188\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:12:22-65
+34    <uses-permission
+34-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\a5a2226ed1f79ab169f4c85384b3e188\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:16:5-18:38
+35        android:name="android.permission.GET_TASKS"
+35-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\a5a2226ed1f79ab169f4c85384b3e188\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:17:9-52
+36        android:maxSdkVersion="20" />
+36-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\a5a2226ed1f79ab169f4c85384b3e188\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:18:9-35
+37
+38    <application
+39        android:name="android.app.Application"
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.8.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\fca4221dbc7cc3ccb305707760767703\core-1.8.0\AndroidManifest.xml:24:18-86
+41        android:debuggable="true"
+42        android:icon="@mipmap/ic_launcher"
+43        android:label="Maps" >
+44        <activity
+45            android:name="com.example.mapbox_turn_by_turn.MainActivity"
+46            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+47            android:exported="true"
+48            android:hardwareAccelerated="true"
+49            android:launchMode="singleTop"
+50            android:theme="@style/LaunchTheme"
+51            android:windowSoftInputMode="adjustResize" >
+52
+53            <!--
+54                 Specifies an Android theme to apply to this Activity as soon as
+55                 the Android process has started. This theme is visible to the user
+56                 while the Flutter UI initializes. After that, this theme continues
+57                 to determine the Window background behind the Flutter UI.
+58            -->
+59            <meta-data
+60                android:name="io.flutter.embedding.android.NormalTheme"
+61                android:resource="@style/NormalTheme" />
+62
+63            <intent-filter>
+64                <action android:name="android.intent.action.MAIN" />
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+67            </intent-filter>
+68        </activity>
+69        <!--
+70             Don't delete the meta-data below.
+71             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+72        -->
+73        <meta-data
+74            android:name="flutterEmbedding"
+75            android:value="2" />
+76
+77        <service
+77-->[:firebase_auth] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+78            android:name="com.google.firebase.components.ComponentDiscoveryService"
+78-->[:firebase_auth] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+79            android:directBootAware="true"
+79-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\adc2fe53ec33910fc275df7505e4deed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+80            android:exported="false" >
+80-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:66:13-37
+81            <meta-data
+81-->[:firebase_auth] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+82                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+82-->[:firebase_auth] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[:firebase_auth] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+84            <meta-data
+84-->[:firebase_core] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+85                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+85-->[:firebase_core] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[:firebase_core] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+88                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+88-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+90        </service>
+91        <service
+91-->[:geolocator_android] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-14:56
+92            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+92-->[:geolocator_android] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-77
+93            android:enabled="true"
+93-->[:geolocator_android] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-35
+94            android:exported="false"
+94-->[:geolocator_android] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+95            android:foregroundServiceType="location" />
+95-->[:geolocator_android] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-53
+96        <service
+96-->[:location] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-15:56
+97            android:name="com.lyokone.location.FlutterLocationService"
+97-->[:location] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-71
+98            android:enabled="true"
+98-->[:location] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-35
+99            android:exported="false"
+99-->[:location] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+100            android:foregroundServiceType="location" />
+100-->[:location] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-53
+101
+102        <activity android:name="com.dormmom.flutter_mapbox_navigation.activity.NavigationActivity" />
+102-->[:flutter_mapbox_navigation] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\flutter_mapbox_navigation\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-102
+102-->[:flutter_mapbox_navigation] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\flutter_mapbox_navigation\intermediates\library_manifest\debug\AndroidManifest.xml:12:19-99
+103        <activity android:name="com.dormmom.flutter_mapbox_navigation.activity.NavigationFragmentActivity" />
+103-->[:flutter_mapbox_navigation] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\flutter_mapbox_navigation\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-110
+103-->[:flutter_mapbox_navigation] D:\Learning Programming\Flutter\Flutter Busi\project_1_maps\project-maps\build\flutter_mapbox_navigation\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-107
+104
+105        <provider
+105-->[com.mapbox.navigation:core:1.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\537d2fee57ad4c0839aac91e754af1d9\jetified-core-1.2.0\AndroidManifest.xml:15:9-19:39
+106            android:name="com.mapbox.navigation.core.accounts.MapboxNavigationAccountsProvider"
+106-->[com.mapbox.navigation:core:1.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\537d2fee57ad4c0839aac91e754af1d9\jetified-core-1.2.0\AndroidManifest.xml:16:13-96
+107            android:authorities="com.example.mapbox_turn_by_turn.MapboxNavigationAccountsProvider"
+107-->[com.mapbox.navigation:core:1.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\537d2fee57ad4c0839aac91e754af1d9\jetified-core-1.2.0\AndroidManifest.xml:17:13-84
+108            android:exported="false"
+108-->[com.mapbox.navigation:core:1.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\537d2fee57ad4c0839aac91e754af1d9\jetified-core-1.2.0\AndroidManifest.xml:18:13-37
+109            android:initOrder="200" />
+109-->[com.mapbox.navigation:core:1.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\537d2fee57ad4c0839aac91e754af1d9\jetified-core-1.2.0\AndroidManifest.xml:19:13-36
+110
+111        <service
+111-->[com.mapbox.navigation:core:1.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\537d2fee57ad4c0839aac91e754af1d9\jetified-core-1.2.0\AndroidManifest.xml:21:9-23:56
+112            android:name="com.mapbox.navigation.core.trip.service.NavigationNotificationService"
+112-->[com.mapbox.navigation:core:1.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\537d2fee57ad4c0839aac91e754af1d9\jetified-core-1.2.0\AndroidManifest.xml:22:13-97
+113            android:foregroundServiceType="location" />
+113-->[com.mapbox.navigation:core:1.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\537d2fee57ad4c0839aac91e754af1d9\jetified-core-1.2.0\AndroidManifest.xml:23:13-53
+114
+115        <meta-data
+115-->[com.mapbox.navigation:core:1.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\537d2fee57ad4c0839aac91e754af1d9\jetified-core-1.2.0\AndroidManifest.xml:25:9-27:37
+116            android:name="com.mapbox.ManageSkuToken"
+116-->[com.mapbox.navigation:core:1.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\537d2fee57ad4c0839aac91e754af1d9\jetified-core-1.2.0\AndroidManifest.xml:26:13-53
+117            android:value="false" />
+117-->[com.mapbox.navigation:core:1.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\537d2fee57ad4c0839aac91e754af1d9\jetified-core-1.2.0\AndroidManifest.xml:27:13-34
+118
+119        <uses-library
+119-->[androidx.window:window:1.0.0-beta04] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\5bf31c25fd6d0ee31f4f657c4efed2cb\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+120            android:name="androidx.window.extensions"
+120-->[androidx.window:window:1.0.0-beta04] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\5bf31c25fd6d0ee31f4f657c4efed2cb\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+121            android:required="false" />
+121-->[androidx.window:window:1.0.0-beta04] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\5bf31c25fd6d0ee31f4f657c4efed2cb\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+122        <uses-library
+122-->[androidx.window:window:1.0.0-beta04] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\5bf31c25fd6d0ee31f4f657c4efed2cb\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+123            android:name="androidx.window.sidecar"
+123-->[androidx.window:window:1.0.0-beta04] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\5bf31c25fd6d0ee31f4f657c4efed2cb\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+124            android:required="false" />
+124-->[androidx.window:window:1.0.0-beta04] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\5bf31c25fd6d0ee31f4f657c4efed2cb\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+125
+126        <activity
+126-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+127            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+127-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+128            android:excludeFromRecents="true"
+128-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+129            android:exported="true"
+129-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+130            android:launchMode="singleTask"
+130-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+131            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+131-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+132            <intent-filter>
+132-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+133                <action android:name="android.intent.action.VIEW" />
+133-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+133-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+134
+135                <category android:name="android.intent.category.DEFAULT" />
+135-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+135-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+136                <category android:name="android.intent.category.BROWSABLE" />
+136-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+136-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+137
+138                <data
+138-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+139                    android:host="firebase.auth"
+139-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+140                    android:path="/"
+140-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+141                    android:scheme="genericidp" />
+141-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+142            </intent-filter>
+143        </activity>
+144        <activity
+144-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+145            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+145-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+146            android:excludeFromRecents="true"
+146-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+147            android:exported="true"
+147-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+148            android:launchMode="singleTask"
+148-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+149            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+149-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+150            <intent-filter>
+150-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+151                <action android:name="android.intent.action.VIEW" />
+151-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+151-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+152
+153                <category android:name="android.intent.category.DEFAULT" />
+153-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+153-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+154                <category android:name="android.intent.category.BROWSABLE" />
+154-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+154-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+155
+156                <data
+156-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+157                    android:host="firebase.auth"
+157-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+158                    android:path="/"
+158-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+159                    android:scheme="recaptcha" />
+159-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\922e26aa961286f6b0b50b1e5e01726e\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+160            </intent-filter>
+161        </activity>
+162
+163        <provider
+163-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\adc2fe53ec33910fc275df7505e4deed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+164            android:name="com.google.firebase.provider.FirebaseInitProvider"
+164-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\adc2fe53ec33910fc275df7505e4deed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+165            android:authorities="com.example.mapbox_turn_by_turn.firebaseinitprovider"
+165-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\adc2fe53ec33910fc275df7505e4deed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+166            android:directBootAware="true"
+166-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\adc2fe53ec33910fc275df7505e4deed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+167            android:exported="false"
+167-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\adc2fe53ec33910fc275df7505e4deed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+168            android:initOrder="100" /> <!-- Offline download region picker activity -->
+168-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\adc2fe53ec33910fc275df7505e4deed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+169        <activity
+169-->[com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\d343bb0aae986f20312294bcad81abaf\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:12:9-14:125
+170            android:name="com.mapbox.mapboxsdk.plugins.offline.ui.OfflineActivity"
+170-->[com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\d343bb0aae986f20312294bcad81abaf\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:13:13-83
+171            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" /> <!-- Offline download service -->
+171-->[com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\d343bb0aae986f20312294bcad81abaf\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:14:13-122
+172        <service
+172-->[com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\d343bb0aae986f20312294bcad81abaf\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:17:9-19:40
+173            android:name="com.mapbox.mapboxsdk.plugins.offline.offline.OfflineDownloadService"
+173-->[com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\d343bb0aae986f20312294bcad81abaf\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:18:13-95
+174            android:exported="false" />
+174-->[com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v9:0.7.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\d343bb0aae986f20312294bcad81abaf\jetified-mapbox-android-plugin-offline-v9-0.7.0\AndroidManifest.xml:19:13-37
+175
+176        <activity
+176-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\61fa768d697e6853e3f011a071dcd8a4\jetified-play-services-auth-20.4.1\AndroidManifest.xml:23:9-27:75
+177            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+177-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\61fa768d697e6853e3f011a071dcd8a4\jetified-play-services-auth-20.4.1\AndroidManifest.xml:24:13-93
+178            android:excludeFromRecents="true"
+178-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\61fa768d697e6853e3f011a071dcd8a4\jetified-play-services-auth-20.4.1\AndroidManifest.xml:25:13-46
+179            android:exported="false"
+179-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\61fa768d697e6853e3f011a071dcd8a4\jetified-play-services-auth-20.4.1\AndroidManifest.xml:26:13-37
+180            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+180-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\61fa768d697e6853e3f011a071dcd8a4\jetified-play-services-auth-20.4.1\AndroidManifest.xml:27:13-72
+181        <!--
+182            Service handling Google Sign-In user revocation. For apps that do not integrate with
+183            Google Sign-In, this service will never be started.
+184        -->
+185        <service
+185-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\61fa768d697e6853e3f011a071dcd8a4\jetified-play-services-auth-20.4.1\AndroidManifest.xml:33:9-37:51
+186            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+186-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\61fa768d697e6853e3f011a071dcd8a4\jetified-play-services-auth-20.4.1\AndroidManifest.xml:34:13-89
+187            android:exported="true"
+187-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\61fa768d697e6853e3f011a071dcd8a4\jetified-play-services-auth-20.4.1\AndroidManifest.xml:35:13-36
+188            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+188-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\61fa768d697e6853e3f011a071dcd8a4\jetified-play-services-auth-20.4.1\AndroidManifest.xml:36:13-107
+189            android:visibleToInstantApps="true" />
+189-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\61fa768d697e6853e3f011a071dcd8a4\jetified-play-services-auth-20.4.1\AndroidManifest.xml:37:13-48
+190
+191        <activity
+191-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\de0300e1076a83ddb7b7a8d6551c8bb0\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+192            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+192-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\de0300e1076a83ddb7b7a8d6551c8bb0\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+193            android:exported="false"
+193-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\de0300e1076a83ddb7b7a8d6551c8bb0\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+194            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+194-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\de0300e1076a83ddb7b7a8d6551c8bb0\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+195
+196        <provider
+196-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\a5a2226ed1f79ab169f4c85384b3e188\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:21:9-25:39
+197            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+197-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\a5a2226ed1f79ab169f4c85384b3e188\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:22:13-93
+198            android:authorities="com.example.mapbox_turn_by_turn.mapboxtelemetryinitprovider"
+198-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\a5a2226ed1f79ab169f4c85384b3e188\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:23:13-79
+199            android:exported="false"
+199-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\a5a2226ed1f79ab169f4c85384b3e188\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:24:13-37
+200            android:initOrder="100" />
+200-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\a5a2226ed1f79ab169f4c85384b3e188\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:25:13-36
+201
+202        <service
+202-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\a5a2226ed1f79ab169f4c85384b3e188\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:27:9-30:72
+203            android:name="com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService"
+203-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\a5a2226ed1f79ab169f4c85384b3e188\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:28:13-93
+204            android:exported="false"
+204-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\a5a2226ed1f79ab169f4c85384b3e188\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:29:13-37
+205            android:permission="android.permission.BIND_JOB_SERVICE" />
+205-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\a5a2226ed1f79ab169f4c85384b3e188\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:30:13-69
+206        <service
+206-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\a5a2226ed1f79ab169f4c85384b3e188\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:31:9-33:40
+207            android:name="com.mapbox.android.telemetry.MapboxTelemetryService"
+207-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\a5a2226ed1f79ab169f4c85384b3e188\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:32:13-79
+208            android:exported="false" />
+208-->[com.mapbox.mapboxsdk:mapbox-android-telemetry-okhttp3:8.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\a5a2226ed1f79ab169f4c85384b3e188\jetified-mapbox-android-telemetry-okhttp3-8.1.0\AndroidManifest.xml:33:13-37
+209
+210        <meta-data
+210-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\58441540fe01c3b82296005451f9a3e2\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+211            android:name="com.google.android.gms.version"
+211-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\58441540fe01c3b82296005451f9a3e2\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+212            android:value="@integer/google_play_services_version" />
+212-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\58441540fe01c3b82296005451f9a3e2\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+213
+214        <provider
+214-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\e8b755a4d8ca06500a4ed125c1088a05\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+215            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+215-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\e8b755a4d8ca06500a4ed125c1088a05\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+216            android:authorities="com.example.mapbox_turn_by_turn.lifecycle-process"
+216-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\e8b755a4d8ca06500a4ed125c1088a05\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+217            android:exported="false"
+217-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\e8b755a4d8ca06500a4ed125c1088a05\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+218            android:multiprocess="true" />
+218-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\e8b755a4d8ca06500a4ed125c1088a05\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+219        <provider
+219-->[com.squareup.picasso:picasso:2.71828] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\c0266c634f188622ce901476fe45bd95\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+220            android:name="com.squareup.picasso.PicassoProvider"
+220-->[com.squareup.picasso:picasso:2.71828] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\c0266c634f188622ce901476fe45bd95\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+221            android:authorities="com.example.mapbox_turn_by_turn.com.squareup.picasso"
+221-->[com.squareup.picasso:picasso:2.71828] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\c0266c634f188622ce901476fe45bd95\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+222            android:exported="false" />
+222-->[com.squareup.picasso:picasso:2.71828] C:\Users\Sakib\.gradle\caches\transforms-2\files-2.1\c0266c634f188622ce901476fe45bd95\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+223    </application>
+224
+225</manifest>

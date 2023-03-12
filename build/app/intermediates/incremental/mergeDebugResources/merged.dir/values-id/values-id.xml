@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mapbox_end_navigation">Akhir Navigasi</string>
+    <string name="mapbox_muted">Suara Dimatikan</string>
+    <string name="mapbox_rerouting">Mengubah Rute</string>
+    <string name="mapbox_unmuted">Suara Dinyalakan</string>
+</resources>

@@ -1,0 +1,28 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dormmom.flutter_mapbox_navigation" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+5-->C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml
+6
+7    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+7-->C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:3:5-81
+7-->C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:3:22-78
+8    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+8-->C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:4:5-79
+8-->C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:4:22-76
+9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+9-->C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:5:5-79
+9-->C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:5:22-76
+10
+11    <application>
+11-->C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:7:5-10:19
+12        <activity android:name="com.dormmom.flutter_mapbox_navigation.activity.NavigationActivity" />
+12-->C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:8:9-65
+12-->C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:8:19-62
+13        <activity android:name="com.dormmom.flutter_mapbox_navigation.activity.NavigationFragmentActivity" />
+13-->C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:9:9-73
+13-->C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:9:19-70
+14    </application>
+15
+16</manifest>

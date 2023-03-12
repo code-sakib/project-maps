@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+color ic_launcher_background
+color red
+color white
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
+id navigationView
+id navigation_fragment_frame
+layout activity_navigation
+layout fragment_navigation
+string action_sign_in
+string action_sign_in_short
+string hello_blank_fragment
+string invalid_password
+string invalid_username
+string login_failed
+string prompt_email
+string prompt_password
+string title_activity_login
+string was_navigation_stopped
+string welcome
+style AppTheme

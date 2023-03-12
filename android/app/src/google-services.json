@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "726900130742",
+    "project_id": "sahil-project1-maps",
+    "storage_bucket": "sahil-project1-maps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726900130742:android:ee5f9a11ef16f2dd10b717",
+        "android_client_info": {
+          "package_name": "com.example.project_1_maps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726900130742-9runvjgadkp96ts805abrok4m6e4ih47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_I3P9Oor_3aibmwy-3wPOm2xuGV0rSjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726900130742-9runvjgadkp96ts805abrok4m6e4ih47.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "726900130742-56l8u648ou7gs0jmkmdq1s288qd5og04.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.project1Maps"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

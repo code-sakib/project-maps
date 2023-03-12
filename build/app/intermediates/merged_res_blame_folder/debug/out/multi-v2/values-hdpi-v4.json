@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Learning Programming\\Flutter\\Flutter Busi\\project_1_maps\\project-maps\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Sakib\\.gradle\\caches\\transforms-2\\files-2.1\\4013c144648ce332b56a95dad0f35fe9\\jetified-ui-1.2.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,137",
+                        "endColumns": "81,74",
+                        "endOffsets": "132,207"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Sakib\\.gradle\\caches\\transforms-2\\files-2.1\\e8fa73e54c453d1adb57ab61622af3b1\\appcompat-1.2.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "212",
+                        "endLines": "8",
+                        "endColumns": "13",
+                        "endOffsets": "484"
+                    }
+                }
+            ]
+        }
+    ]
+}

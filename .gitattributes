@@ -1,0 +1,6 @@
+*.apk filter=lfs diff=lfs merge=lfs -text
+*.com filter=lfs diff=lfs merge=lfs -text
+*.dill filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.Ly9AZGFydD0yLjE2 filter=lfs diff=lfs merge=lfs -text
+*.cache.dill.track.dill filter=lfs diff=lfs merge=lfs -text

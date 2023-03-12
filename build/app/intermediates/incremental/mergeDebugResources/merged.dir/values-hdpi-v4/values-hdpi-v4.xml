@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mapbox_fab_feedback_margin_top">@dimen/mapbox_dimen_16dp</dimen>
+    <dimen name="mapbox_fab_margin_bottom">@dimen/mapbox_dimen_8dp</dimen>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle.Common">
+          <item name="barLength">18.66dp</item>
+          <item name="gapBetweenBars">3.33dp</item>
+          <item name="drawableSize">24dp</item>
+     </style>
+</resources>

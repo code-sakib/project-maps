@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mapbox_number_of_days">
+        <item quantity="other">ọjọ</item>
+    </plurals>
+    <string name="mapbox_end_navigation">Muu Lilọ kiri</string>
+    <string name="mapbox_eta_format">%s ETA</string>
+    <string name="mapbox_feedback_submitted">Esi Firanṣẹ</string>
+    <string name="mapbox_muted">Muted</string>
+    <string name="mapbox_re_center">Tun-ile-iṣẹ</string>
+    <string name="mapbox_report_problem">Sọkọ Iṣoro</string>
+    <string name="mapbox_rerouting">Atunjade ...</string>
+    <string name="mapbox_unit_feet">ft</string>
+    <string name="mapbox_unit_hr">hr</string>
+    <string name="mapbox_unit_kilometers">km</string>
+    <string name="mapbox_unit_meters">m</string>
+    <string name="mapbox_unit_miles">mi</string>
+    <string name="mapbox_unit_min">min</string>
+    <string name="mapbox_unmuted">Unmuted</string>
+</resources>

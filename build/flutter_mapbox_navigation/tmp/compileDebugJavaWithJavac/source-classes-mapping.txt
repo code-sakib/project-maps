@@ -1,0 +1,4 @@
+com/dormmom/flutter_mapbox_navigation/BuildConfig.java
+ com.dormmom.flutter_mapbox_navigation.BuildConfig
+com/dormmom/flutter_mapbox_navigation/activity/NavigationLauncher.java
+ com.dormmom.flutter_mapbox_navigation.activity.NavigationLauncher

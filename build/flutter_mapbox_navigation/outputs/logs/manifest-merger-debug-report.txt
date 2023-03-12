@@ -1,0 +1,41 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:1:1-12:12
+	package
+		ADDED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:1:70-117
+		INJECTED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:3:5-81
+	android:name
+		ADDED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:3:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:4:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:5:22-76
+application
+ADDED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:7:5-10:19
+activity#com.dormmom.flutter_mapbox_navigation.activity.NavigationActivity
+ADDED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:8:9-65
+	android:name
+		ADDED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:8:19-62
+activity#com.dormmom.flutter_mapbox_navigation.activity.NavigationFragmentActivity
+ADDED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:9:9-73
+	android:name
+		ADDED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml:9:19-70
+uses-sdk
+INJECTED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sakib\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_mapbox_navigation-0.0.26\android\src\main\AndroidManifest.xml
