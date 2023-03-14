@@ -53,7 +53,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCQZ_Xk0u0XgMODh70vdCYCZYjjJVvNHRY',
+    apiKey: '',
     appId: '1:1062100872258:android:105b0ffc42f12ae32611db',
     messagingSenderId: '1062100872258',
     projectId: 'sahilmapsproject',
